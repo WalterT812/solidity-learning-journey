@@ -1,0 +1,5 @@
+out/
+# Optional: ignore build libs and local dependency folders
+lib/
+.env
+.vscode/
