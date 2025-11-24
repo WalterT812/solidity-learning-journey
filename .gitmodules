@@ -1,6 +1,3 @@
 [submodule "phase2/simple-storage/lib/forge-std"]
 	path = phase2/simple-storage/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
-[submodule "phase2/simple-storage"]
-	path = phase2/simple-storage
-	url = git@github.com:WalterT812/simple-storage.git
