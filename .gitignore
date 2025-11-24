@@ -1,4 +1,11 @@
-# Node modules
+out/
+# Optional: ignore build libs and local dependency folders
+lib/
+.env
+.vscode/
+cache/
+# Foundry/build artifacts
+.forge/# Node modules
 /node_modules
 
 # Compilation output
