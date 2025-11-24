@@ -3,3 +3,6 @@ out/
 lib/
 .env
 .vscode/
+cache/
+# Foundry/build artifacts
+.forge/
