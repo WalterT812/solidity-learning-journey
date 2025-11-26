@@ -1,21 +1,23 @@
-out/
-# Optional: ignore build libs and local dependency folders
-lib/
-.env
-.vscode/
-cache/
 # Foundry/build artifacts
-.forge/# Node modules
+out/
+cache/
+.forge/
+
+# Dependencies
+lib/
 /node_modules
 
-# Compilation output
-/dist
+# Environment
+.env
 
-# pnpm deploy output
-/bundle
+# IDE
+.vscode/
+/.vscode
 
 # Hardhat Build Artifacts
 /artifacts
+/dist
+/bundle
 
 # Hardhat compilation (v2) support directory
 /cache
@@ -26,7 +28,6 @@ cache/
 # Hardhat coverage reports
 /coverage
 
+# Documentation
 /pdfs
 /questions
-
-/.vscode

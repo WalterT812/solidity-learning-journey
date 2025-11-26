@@ -2,7 +2,7 @@
 pragma solidity ^0.8.24;
 
 import {Test} from "forge-std/Test.sol";
-import {MappingGuide} from "../src/MappingGuide.sol";
+import {MappingGuide} from "../../src/phase2/MappingGuide.sol";
 
 contract MappingTest is Test {
     MappingGuide public bank;

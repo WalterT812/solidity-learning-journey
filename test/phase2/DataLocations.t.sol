@@ -2,7 +2,7 @@
 pragma solidity ^0.8.24;
 
 import {Test} from "forge-std/Test.sol"; // 引入 Foundry 的标准测试库
-import {DataLocations} from "../src/DataLocations.sol"; // 引入我们要测的合约
+import {DataLocations} from "../../src/phase2/DataLocations.sol"; // 引入我们要测的合约
 
 contract DataLocationsTest is Test {
     DataLocations public myContract;

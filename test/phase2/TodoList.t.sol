@@ -2,7 +2,7 @@
 pragma solidity ^0.8.24;
 
 import {Test} from "forge-std/Test.sol";
-import {TodoList} from "../src/TodoList.sol";
+import {TodoList} from "../../src/phase2/TodoList.sol";
 
 contract TodoListTest is Test {
     TodoList public list;
